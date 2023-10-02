@@ -1,0 +1,27 @@
+//variables
+$color-fondo: rgba(239, 239, 20, 0.865); 
+$color-font: rgb(174, 10, 10);
+
+.boxInicio{
+    background: $color-fondo;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.boxCardItemListContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.795);
+    
+}

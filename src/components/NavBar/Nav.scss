@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300&display=swap');
+
+//variables
+$letra-font: 'Poppins', sans-serif; 
+$color-font: rgb(34, 231, 201) ;
+$brand-color:  rgb(231, 95, 22);
+
+
+.boxNav{
+    height: 100px;
+}
+.navPrincipal{
+    background-color: rgb(26, 38, 25);
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+
+a.brand{
+    color: $brand-color;
+    font-size: 25px;
+    font-family: $letra-font;
+}
+.imgLogoNav{
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+}
+.me-auto{
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 130px;
+    margin-right: 0px;
+    width: 100%;
+    
+}
+.me-auto a.NavLink{
+    color: $color-font;
+    font-family: $letra-font;
+    font-size: 18px;
+    &:hover {
+        color: red($color: #d80c0c);
+    }
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+#basic-nav-dropdown{
+    color: $color-font;
+    font-size: 18px;
+    font-family: $letra-font;
+}
+#basic-nav-dropdown-item{
+    text-decoration: none;
+}

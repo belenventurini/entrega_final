@@ -1,0 +1,12 @@
+.boxCardItemDetailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    background: rgb(9, 130, 134);
+}
