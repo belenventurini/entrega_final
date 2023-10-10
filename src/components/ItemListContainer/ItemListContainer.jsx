@@ -1,8 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../components/ItemListContainer/Container.scss'
+
+
 
 // eslint-disable-next-line react/prop-types
 const ItemListContainer = ({productsData}) =>{
@@ -11,6 +13,7 @@ const ItemListContainer = ({productsData}) =>{
         const navigate = useNavigate ();
 
         return ( 
+
             <div className='boxCardItemListContainer'>
                 {productsData.map((product) => {
                     return (
@@ -31,9 +34,11 @@ const ItemListContainer = ({productsData}) =>{
                             {product.price} $
                         </Card.Text>
                         <Button 
+                        className="button"
+                        //"css-button-rounded--grey"
                         variant="primary" 
                         onClick={() => navigate(`/item/${product.id}`)}>
-                        Detalles
+                        VER MÁS
                         </Button>
                         </Card.Body>
                         </Card>

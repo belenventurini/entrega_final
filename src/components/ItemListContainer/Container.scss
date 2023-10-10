@@ -1,5 +1,5 @@
 //variables
-$color-fondo: rgba(239, 239, 20, 0.865); 
+$color-fondo: rgba(214, 214, 214, 0.865); 
 $color-font: rgb(174, 10, 10);
 
 .boxInicio{
@@ -8,20 +8,85 @@ $color-font: rgb(174, 10, 10);
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .boxCardItemListContainer{
-
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
     height: 100%;
     padding: 0;
-    background: rgba(255, 255, 255, 0.795);
-    
+    background: rgba(214, 214, 214, 0.865);
 }
+
+
+.card {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 750px;
+    height: 600px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+    }
+
+
+  .button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  .button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  .button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
+
+
+
+/*.css-button-rounded--grey {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0px;
+    border: 2px solid #495057;
+    background: #9e9b9a;
+}
+.css-button-rounded--grey:hover {
+    background: #fff;
+    color: #495057
+}*/
