@@ -3,12 +3,12 @@ import React from 'react';
 import { getDocs, collection, getFirestore } from 'firebase/firestore';
 
 
-
 export const useCollection = (collectionName) => {
 
     const [data, setData] = React.useState([]);
     const [loading, setLoading] = React.useState(true);
     const [error, setError] = React.useState(false);
+
 
     React.useEffect(() => {
 

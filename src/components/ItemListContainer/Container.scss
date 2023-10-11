@@ -1,26 +1,20 @@
-//variables
-$color-fondo: rgba(214, 214, 214, 0.865); 
+//variables 
 $color-font: rgb(174, 10, 10);
 
 .boxInicio{
-    background: $color-fondo;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .boxCardItemListContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    column-gap: 36px;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
     height: 100%;
     padding: 0;
-    background: rgba(214, 214, 214, 0.865);
+    width: 80%;
+    justify-content: space-around;
 }
 
 
@@ -35,16 +29,21 @@ $color-font: rgb(174, 10, 10);
 
     max-width: 750px;
     height: 600px;
-    padding: 35px;
+    padding: 10px;
 
     border: 1px solid rgba(255, 255, 255, .25);
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
+    //border-radius: 20px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.221);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
     backdrop-filter: blur(15px);
     }
 
+.card-img-top{
+  border-top-left-radius: 2rem;
+}
 
   .button {
     background-color: white;

@@ -10,7 +10,6 @@ import CartWidget from '../CartWidget/CartWidget';
 
 
 
-
 const NavBar = () => {
     //traigo la coleccion que quiero mostrar en categorias, traigo data
     const { data, loading } = useCollection ("categories");
